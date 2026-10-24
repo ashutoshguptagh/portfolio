@@ -95,10 +95,10 @@ Open [http://localhost:3000](http://localhost:3000).
 
 ## Connect With Me
 
-- **GitHub:** [@ashutoshguptagh](https://github.com/ashutoshguptagh)
-- **Portfolio:** Add your deployed website URL here.
-- **LinkedIn:** Add your LinkedIn profile URL here.
-- **Email:** Add your professional email address here.
+- **GitHub:** (https://github.com/ashutoshguptagh)
+- **Portfolio:** URL Soon.
+- **LinkedIn:** www.linkedin.com/in/iamashutoshgupta.
+- **Email:** ashug1919@gmail.com.
 
 ---
 
