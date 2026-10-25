@@ -1,81 +1,45 @@
-# Ashutosh Gupta | Full Stack Developer
+# 🚀 Portfolio Website
+<img width="1920" height="5090" alt="image" src="https://github.com/user-attachments/assets/f1e468cb-201f-4c83-99ca-e9bf60efb21d" />
 
 <p align="center">
-  <strong>Building modern web applications with Python, FastAPI, React and AI.</strong>
+  <a href="https://ashutosh.antideploy.app/">
+    <img src="https://img.shields.io/badge/LIVE_DEMO-Visit_Portfolio-8B5CF6?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" />
+  </a>
+  <a href="https://github.com/ashutoshguptagh/portfolio">
+    <img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repository" />
+  </a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/ashutoshguptagh">GitHub</a> •
-  <a href="https://github.com/ashutoshguptagh/portfolio">Portfolio Repository</a>
+  A modern, responsive portfolio website featuring elegant gradients, smooth animations, and a clean user interface.
 </p>
 
 ---
 
-## About Me
+## ✨ Features
 
-Hi, I'm **Ashutosh Gupta**, a Computer Science student and Full Stack Developer passionate about building useful, scalable and user-friendly applications.
+- 🎨 Modern dark navy design with purple and pink gradients
+- 📱 Responsive layout for desktop, tablet, and mobile
+- 🌓 Dark and light theme support
+- ⚡ Smooth animations and interactive components
+- 💼 Dedicated project and skills sections
+- ✉️ Contact form with email delivery integration
+- 🧩 Reusable React components
 
-I enjoy working across the stack, from designing responsive interfaces to developing APIs, databases and AI-powered features.
+## 🛠️ Tech Stack
 
-- **Focus:** Full Stack Development, Backend Engineering and AI/ML
-- **Backend:** Python, FastAPI, Django
-- **Frontend:** React, Next.js, TypeScript, Tailwind CSS
-- **Databases:** PostgreSQL, MySQL, MongoDB, Supabase
-- **Currently exploring:** AI integration, system design and scalable applications
+<p>
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white" alt="Framer Motion" />
+  <img src="https://img.shields.io/badge/Lucide_React-F56565?style=for-the-badge&logo=lucide&logoColor=white" alt="Lucide React" />
+</p>
 
-## Featured Projects
+## 🚀 Getting Started
 
-### 1. WH Billing System
-A billing and inventory management application designed to simplify invoicing and business operations.
-
-**Tech stack:** FastAPI, PostgreSQL, React
-
-Features include invoice generation, inventory management and WhatsApp invoice integration.
-
-### 2. Aerox Guard
-A revenue leakage detection and reconciliation project designed to compare contract, billing, entitlement and usage data.
-
-**Tech stack:** Python, FastAPI, Data Processing
-
-### 3. Document Assistant
-A document-focused application exploring document processing, semantic search and retrieval-augmented generation (RAG).
-
-**Tech stack:** Python, FastAPI, React, ChromaDB
-
-> Project descriptions reflect the intended functionality. Check each project's implementation before presenting every feature as production-ready.
-
-## Tech Stack
-
-**Languages**
-
-`Python` `JavaScript` `TypeScript` `SQL`
-
-**Frontend**
-
-`React` `Next.js` `Tailwind CSS` `HTML` `CSS`
-
-**Backend**
-
-`FastAPI` `Django` `REST APIs`
-
-**Databases and Tools**
-
-`PostgreSQL` `MySQL` `MongoDB` `Supabase` `Git` `GitHub`
-
-## Portfolio Website
-
-This repository contains my personal portfolio website, built with a modern, responsive design and a dark navy theme with purple and pink accents.
-
-**Built with:**
-- Next.js App Router
-- TypeScript
-- Tailwind CSS v4
-- Framer Motion
-- Lucide React
-
-### Run Locally
-
-Requirements: Node.js 20.9+ and npm.
+**Prerequisites:** Node.js 20.9+ and npm.
 
 ```bash
 git clone https://github.com/ashutoshguptagh/portfolio.git
@@ -84,24 +48,28 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000).
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-### Configuration
+## ⚙️ Configuration
 
-- Add your portrait at `public/profile.jpg`.
-- Update your contact email and social links in `components/portfolio.tsx`.
-- Configure `.env.local` using `.env.example` if email delivery is required.
-- Never commit API keys, passwords or private environment variables.
+- Add the profile image at `public/profile.jpg`.
+- Update project details and social links in the relevant components.
+- Configure `.env.local` for email delivery if required.
+- Keep API keys and secrets out of version control.
 
-## Connect With Me
+## 📦 Production Build
 
-- **GitHub:** (https://github.com/ashutoshguptagh)
-- **Portfolio:** URL Soon.
-- **LinkedIn:** www.linkedin.com/in/iamashutoshgupta.
-- **Email:** ashug1919@gmail.com.
+```bash
+npm run build
+npm start
+```
 
 ---
 
 <p align="center">
-  <em>Learning, building and improving — one project at a time.</em>
+  <a href="https://ashutosh.antideploy.app/"><strong>🌐 Explore the Live Portfolio</strong></a>
+</p>
+
+<p align="center">
+  Built with Next.js, TypeScript, Tailwind CSS, and Framer Motion.
 </p>
