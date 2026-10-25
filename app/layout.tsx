@@ -4,7 +4,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Ashutosh Gupta | Full Stack Developer",
   description: "Portfolio of Ashutosh Gupta — Full Stack Developer specializing in Python, FastAPI, React, Next.js and AI/ML.",
-  keywords: ["Ashutosh Gupta", "Full Stack Developer", "Python", "FastAPI", "Next.js", "AI/ML"],
+  keywords: ["Ashutosh Gupta", "Full Stack Developer", "Python", "FastAPI", "Next.js", "AI/ML", "Ashutosh Gupta, Navi Mumbai"],
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

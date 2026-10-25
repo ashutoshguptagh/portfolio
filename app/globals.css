@@ -1725,6 +1725,41 @@ p {
     overflow: hidden
 }
 
+
+/* Stats banner — LIGHT MODE FIX */
+[data-theme="light"] .stats-band,
+:root.light .stats-band {
+  background: linear-gradient(
+    110deg,
+    #f6d9ed 0%,
+    #e2d2f5 52%,
+    #c5ccfa 100%
+  );
+  border: 1px solid #d9b5ee;
+}
+
+[data-theme="light"] .stat-item strong,
+:root.light .stat-item strong {
+  color: #19152f;
+}
+
+[data-theme="light"] .stat-item small,
+:root.light .stat-item small {
+  color: #59456f;
+  opacity: 1;
+}
+
+[data-theme="light"] .stat-item > svg,
+:root.light .stat-item > svg {
+  color: #a33bbd;
+}
+
+[data-theme="light"] .stats-decoration,
+:root.light .stats-decoration {
+  border-color: rgba(125, 78, 190, 0.16);
+}
+
+
 .stat-item {
     display: flex;
     align-items: center;
@@ -3171,6 +3206,92 @@ body,
     background: var(--theme-toggle-bg);
     border-color: var(--theme-toggle-border);
     color: var(--theme-toggle-color);
+}
+
+
+/* Contact banner — improved light theme */
+[data-theme="light"] .contact-banner,
+:root.light .contact-banner {
+  background: linear-gradient(
+    115deg,
+    #f3d5ed 0%,
+    #e1d2f5 52%,
+    #cbd2ff 100%
+  );
+  border: 1px solid #d5afe9;
+}
+
+/* Center the icon inside its container */
+.contact-banner .contact-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  text-align: center;
+}
+
+.contact-banner .contact-icon svg {
+  display: block;
+  margin: auto;
+}
+
+/* Improve text contrast */
+[data-theme="light"] .contact-banner .eyebrow,
+:root.light .contact-banner .eyebrow {
+  color: #76408f;
+}
+
+[data-theme="light"] .contact-banner h2,
+:root.light .contact-banner h2 {
+  color: #17152d;
+}
+
+[data-theme="light"] .contact-banner .gradient-text,
+:root.light .contact-banner .gradient-text {
+  background: linear-gradient(100deg, #a32885, #6741c5);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+[data-theme="light"] .contact-banner p,
+:root.light .contact-banner p {
+  color: #514563;
+  opacity: 1;
+}
+
+[data-theme="light"] .contact-banner a,
+:root.light .contact-banner a {
+  color: #211934;
+}
+
+/* Center send icon inside its gradient box */
+.contact-banner > :first-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-banner > :first-child > svg {
+  flex-shrink: 0;
+  display: block;
+}
+
+/* If the icon has its own wrapper */
+.contact-banner .contact-icon {
+  width: 74px;
+  height: 74px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  padding: 0;
+}
+
+.contact-banner .contact-icon svg {
+  width: 28px;
+  height: 28px;
+  margin: 0;
 }
 
 @media(prefers-reduced-motion:reduce) {

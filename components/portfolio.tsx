@@ -8,7 +8,8 @@ import {
   Home, Layers3, Linkedin, Mail, Menu, MessageCircle, MonitorSmartphone,
   Rocket, Send, Sparkles, UserRound, X, Zap, Database, BrainCircuit,
   Globe, FileText, Coffee, Trophy, Smile, MapPin, Phone, Instagram,
-  Sun, Moon
+  Sun, Moon,
+  DownloadIcon
 } from "lucide-react";
 
 const navItems = [
@@ -31,9 +32,9 @@ const skills = [
   { name: "Python", level: "Backend & scripting", icon: Code2 },
   { name: "FastAPI", level: "APIs & services", icon: Zap },
   { name: "React / Next.js", level: "Frontend development", icon: Globe },
-  { name: "PostgreSQL / SQL", level: "Data modelling", icon: Database },
+  { name: "PostgreSQL SQL / MongoDB NOSQL", level: "Data modelling", icon: Database },
   { name: "AI / ML foundations", level: "Learning & building", icon: BrainCircuit },
-  { name: "Tailwind CSS", level: "Responsive UI", icon: Layers3 },
+  { name: "Tailwind CSS/ Bootstrap", level: "Responsive UI", icon: Layers3 },
 ];
 
 const services = [
@@ -81,7 +82,7 @@ function MobileNav({
             <span className="brand-mark">A<span>.</span></span>
             <span>
               <strong>ASHUTOSH GUPTA</strong>
-              <small>FULL STACK DEVELOPER</small>
+              <small>FULL STACK PYTHON DEVELOPER</small>
             </span>
           </a>
           <div className="mobile-drawer-actions">
@@ -137,9 +138,9 @@ function MobileNav({
           <div className="sidebar-label">FIND ME ONLINE</div>
           <div className="social-links">
             <a href="https://github.com/ashutoshguptagh" target="_blank" rel="noreferrer" aria-label="GitHub"><Github size={17} /></a>
-            <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer" aria-label="LinkedIn"><Linkedin size={17} /></a>
-            <a href="https://www.instagram.com/" target="_blank" rel="noreferrer" aria-label="Instagram"><Instagram size={17} /></a>
-            <a href="mailto:hello@ashutosh.dev" aria-label="Email"><Mail size={17} /></a>
+            <a href="https://www.linkedin.com/in/iamashutoshgupta/" target="_blank" rel="noreferrer" aria-label="LinkedIn"><Linkedin size={17} /></a>
+            <a href="https://www.instagram.com/thecode_ashutosh" target="_blank" rel="noreferrer" aria-label="Instagram"><Instagram size={17} /></a>
+            <a href="mailto:ashug1919@mail.com" aria-label="Email"><Mail size={17} /></a>
           </div>
           <p className="sidebar-footnote">DESIGNED WITH INTENTION <span>© 2026</span></p>
         </div>
@@ -418,16 +419,16 @@ export default function Portfolio() {
             <p className="hero-description">Full Stack Developer focused on Python, FastAPI, Next.js and AI/ML. I enjoy turning ideas into useful, thoughtful software.</p>
             <div className="hero-actions">
               <a className="gradient-button" href="#projects" onClick={(e) => handleNavClick(e, "#projects")}>Explore My Work <ArrowRight size={16} /></a>
-              <a className="text-button" href="#about" onClick={(e) => handleNavClick(e, "#about")}><span className="play-icon"><ArrowDown size={15} /></span> Get to know me</a>
+              <a className="text-button" href="https://drive.google.com/uc?export=download&id=1TnsjYTe9jcQhegO5x9LBA_NtADDalmGq" onClick={(e) => handleNavClick(e, "https://drive.google.com/uc?export=download&id=1TnsjYTe9jcQhegO5x9LBA_NtADDalmGq")}><span className="play-icon"><DownloadIcon size={15} /></span> Download Resume</a>
             </div>
             <div className="hero-trust"><span className="trust-line" /> <span>BUILDING · LEARNING · SHIPPING</span></div>
-            <div className="tech-logos"><span><Code2 size={16} /> Python</span><span><Layers3 size={16} /> Next.js</span><span><Database size={16} /> PostgreSQL</span><span><BrainCircuit size={16} /> AI / ML</span></div>
+            <div className="tech-logos"><span><Code2 size={16} /> Python</span><span><Layers3 size={16} /> Next.js</span><span><Database size={16} /> PostgreSQL/MongoDB</span><span><BrainCircuit size={16} /> AI / ML</span></div>
           </div>
           <div className="hero-visual">
             <div className="hero-glow" /><div className="hero-ring ring-a" /><div className="hero-ring ring-b" /><div className="hero-dots dots-a" /><div className="hero-dots dots-b" />
             <div className="portrait-frame">
               <img
-                src="/profile.png"
+                src="/profile.webp"
                 alt="Ashutosh Gupta - Full Stack Developer"
                 className="portrait-photo"
                 loading="eager"
@@ -435,7 +436,7 @@ export default function Portfolio() {
             </div>
             <div className="floating-chip chip-code"><Code2 size={17} /><span>Clean code<br /><b>Thoughtful builds</b></span></div>
             <div className="floating-chip chip-status"><span className="status-dot" /><span><b>Available</b><small>for opportunities</small></span></div>
-            <div className="hero-number"><strong>04<span>+</span></strong><small>PROJECTS<br />IN PROGRESS</small></div>
+            <div className="hero-number"><strong>10<span>+</span></strong><small>PROJECTS<br />IN PROGRESS</small></div>
             <div className="visual-caption">CURIOUS BY NATURE <span>✳</span> BUILDER BY CHOICE</div>
           </div>
           <a href="#about" className="scroll-cue" onClick={(e) => handleNavClick(e, "#about")}><span className="scroll-mouse" /> SCROLL TO EXPLORE</a>
@@ -470,8 +471,8 @@ export default function Portfolio() {
         </section>
 
         <section id="contact" className="contact-section section-pad">
-          <div className="contact-banner"><div className="contact-art"><Send size={25} /><div className="contact-orbit" /></div><div className="contact-banner-copy"><div className="eyebrow">HAVE A PROJECT IN MIND?</div><h2>Let’s make something<br /><span>meaningful together.</span></h2><p>Have an idea, collaboration or opportunity? I’d love to hear about it.</p><a href="mailto:hello@ashutosh.dev" className="contact-email">hello@ashutosh.dev <ArrowUpRight size={15} /></a></div><div className="contact-sparkle">✳</div></div>
-          <div className="contact-content"><div className="contact-left"><div className="eyebrow">GET IN TOUCH</div><h2>Tell me what<br />you’re <span className="gradient-text">thinking.</span></h2><p>Share a little context and I’ll get back to you. You can also reach out directly over email.</p><div className="contact-detail"><span><Mail size={17} /></span><div><small>EMAIL</small><a href="mailto:hello@ashutosh.dev">hello@ashutosh.dev</a></div></div><div className="contact-detail"><span><MapPin size={17} /></span><div><small>BASED IN</small><strong>Mumbai, India</strong></div></div><div className="contact-socials"><a href="https://github.com/ashutoshguptagh" target="_blank" rel="noreferrer"><Github size={17} /> GitHub</a><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer"><Linkedin size={17} /> LinkedIn</a></div></div><form className="contact-form" onSubmit={submitContact}><div className="form-heading"><h3>Send a message</h3><span><span className="status-dot" /> Usually replies soon</span></div><label>Your name<input required maxLength={100} value={form.name} onChange={e => setForm({ ...form, name: e.target.value })} placeholder="Jane Smith" /></label><label>Your email<input required type="email" maxLength={200} value={form.email} onChange={e => setForm({ ...form, email: e.target.value })} placeholder="jane@company.com" /></label><label>Your message<textarea required maxLength={5000} rows={4} value={form.message} onChange={e => setForm({ ...form, message: e.target.value })} placeholder="Tell me a little about your idea..." /></label>{formState.message && <p className={`form-message ${formState.success ? "success" : "error"}`}>{formState.message}</p>}<button type="submit" className="gradient-button submit-button" disabled={formState.loading}>{formState.loading ? "Sending..." : "Send Message"} <Send size={15} /></button><p className="form-privacy">Your details are used only to respond to your enquiry.</p></form></div>
+          <div className="contact-banner"><div className="contact-art"><Send size={25} /><div className="contact-orbit" /></div><div className="contact-banner-copy"><div className="eyebrow">HAVE A PROJECT IN MIND?</div><h2>Let’s make something<br /><span>meaningful together.</span></h2><p>Have an idea, collaboration or opportunity? I’d love to hear about it.</p><a href="mailto:ashug1919@gmail.com" className="contact-email">ashug1919@gmail.com <ArrowUpRight size={15} /></a></div><div className="contact-sparkle">✳</div></div>
+          <div className="contact-content"><div className="contact-left"><div className="eyebrow">GET IN TOUCH</div><h2>Tell me what<br />you’re <span className="gradient-text">thinking.</span></h2><p>Share a little context and I’ll get back to you. You can also reach out directly over email.</p><div className="contact-detail"><span><Mail size={17} /></span><div><small>EMAIL</small><a href="mailto:ashug1919@gmail.com">ashug1919@gmail.com</a></div></div><div className="contact-detail"><span><MapPin size={17} /></span><div><small>BASED IN</small><strong>Navi Mumbai, India</strong></div></div><div className="contact-socials"><a href="https://github.com/ashutoshguptagh" target="_blank" rel="noreferrer"><Github size={17} /> GitHub</a><a href="https://www.linkedin.com/in/iamashutoshgupta/" target="_blank" rel="noreferrer"><Linkedin size={17} /> LinkedIn</a></div></div><form className="contact-form" onSubmit={submitContact}><div className="form-heading"><h3>Send a message</h3><span><span className="status-dot" /> Usually replies soon</span></div><label>Your name<input required maxLength={100} value={form.name} onChange={e => setForm({ ...form, name: e.target.value })} placeholder="Shivam Gupta" /></label><label>Your email<input required type="email" maxLength={200} value={form.email} onChange={e => setForm({ ...form, email: e.target.value })} placeholder="shivam@company.com" /></label><label>Your message<textarea required maxLength={5000} rows={4} value={form.message} onChange={e => setForm({ ...form, message: e.target.value })} placeholder="Tell me about your queries" /></label>{formState.message && <p className={`form-message ${formState.success ? "success" : "error"}`}>{formState.message}</p>}<button type="submit" className="gradient-button submit-button" disabled={formState.loading}>{formState.loading ? "Sending..." : "Send Message"} <Send size={15} /></button><p className="form-privacy">Your details are used only to respond to your enquiry.</p></form></div>
         </section>
 
         <footer className="footer">
